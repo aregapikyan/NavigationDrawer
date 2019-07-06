@@ -66,7 +66,7 @@ public class NavigationDrawerFragment extends Fragment {
 
         };
 
-        if(!mUserLearnedDrawer && mFromSavedInstanceState) {
+        if (!mUserLearnedDrawer && mFromSavedInstanceState) {
             mDrawerLayout.openDrawer(containerView);
         }
 
